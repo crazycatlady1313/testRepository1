@@ -20,7 +20,7 @@ public class WebDriverDocumentation_04Test {
     @Before
     public void setUp() throws Exception {
 
-        System.setProperty("webdriver.gecko.driver", "/Users/maribel.parraguez/Desktop/Lynda_courses/Advanced_Selenium/geckodriver");
+      //  System.setProperty("webdriver.gecko.driver", "/Users/maribel.parraguez/Desktop/Lynda_courses/Advanced_Selenium/geckodriver");
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
