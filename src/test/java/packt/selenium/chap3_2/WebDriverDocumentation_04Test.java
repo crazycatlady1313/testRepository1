@@ -37,7 +37,7 @@ public class WebDriverDocumentation_04Test {
         WebDriverDocumentation webDriverDocumentation = documentationPage.navigateToWebDriverDocumentation();
 
         String actualTitle = driver.getTitle();
-        String expectedTitle = "Selenium WebDriver — Selenium Documentation";
+        String expectedTitle = "hOLA Selenium WebDriver — Selenium Documentation";
         assertEquals(expectedTitle, actualTitle);
     }
 }
