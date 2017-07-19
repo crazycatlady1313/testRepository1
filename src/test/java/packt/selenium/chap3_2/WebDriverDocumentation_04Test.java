@@ -22,7 +22,7 @@ public class WebDriverDocumentation_04Test {
 
         //funciona bien con geckodriver 0.15 y selenium 3.3.0
        // System.setProperty("webdriver.gecko.driver", "/Users/maribel.parraguez/Desktop/Lynda_courses/Advanced_Selenium/geckodriver");
-        System.setProperty("webdriver.gecko.driver", "/Users/maribel.parraguez/Documents/GitHub/testRepository1/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "/Users/maribel.parraguez/Documents/GitHub/testRepository1/geckodriver.exe");
         driver = new FirefoxDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
